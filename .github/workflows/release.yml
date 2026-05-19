@@ -47,7 +47,7 @@ jobs:
       - name: Upload Binary
         uses: taiki-e/upload-rust-binary-action@v1
         with:
-          bin: asar-cli
+          bin: asar
           target: ${{ matrix.target }}
           manifest-path: cli/Cargo.toml
           token: ${{ secrets.GITHUB_TOKEN }}

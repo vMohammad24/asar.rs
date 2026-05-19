@@ -7,3 +7,7 @@ edition = "2024"
 asar = { path = ".." }
 clap = { version = "4", features = ["derive"] }
 walkdir = "2"
+
+[[bin]]
+name = "asar"
+path = "src/main.rs"
