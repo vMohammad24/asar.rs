@@ -21,6 +21,16 @@ This project consists of two parts:
 
 ## Installation
 
+
+### NixOS
+If you're using NixOS, you can install the `asar` CLI directly using the flake:
+
+```bash
+nix profile add "github:vMohammad24/asar.rs"
+```
+
+### From source
+```bash
 Ensure you have Rust and Cargo installed. To build and install the CLI from the source:
 
 ```bash
