@@ -37,7 +37,6 @@ cargo install --git https://github.com/vMohammad24/asar.rs.git
 ```
 
 ### From source
-```bash
 Ensure you have Rust and Cargo installed. To build and install the CLI from the source:
 
 ```bash
