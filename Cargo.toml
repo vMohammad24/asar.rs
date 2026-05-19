@@ -2,6 +2,13 @@
 name = "asar"
 version = "0.1.0"
 edition = "2024"
+description = "A fast, memory-safe Rust library and CLI tool for reading, writing, and managing ASAR archives."
+repository = "https://github.com/vMohammad24/asar.rs"
+readme = "README.md"
+keywords = ["asar", "electron", "archive", "parser"]
+categories = ["compression", "parsing"]
+license = "AGPLv3"
+
 
 [dependencies]
 byteorder = "1"
