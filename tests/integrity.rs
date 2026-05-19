@@ -85,7 +85,7 @@ fn test_integrity_checker_verify_blocks() {
 	let blocks = HashAlgorithm::Sha256.hash_blocks(32, &data);
 
 	assert!(checker.verify_blocks(&data, 32, &blocks));
-	assert!(!checker.verify_blocks(&vec![0u8; 100], 32, &blocks));
+	assert!(!checker.verify_blocks(&[0u8; 100], 32, &blocks));
 }
 
 #[test]
