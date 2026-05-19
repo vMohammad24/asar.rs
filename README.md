@@ -29,6 +29,13 @@ If you're using NixOS, you can install the `asar` CLI directly using the flake:
 nix profile add "github:vMohammad24/asar.rs"
 ```
 
+### Cargo
+You can install the `asar` CLI using Cargo:
+
+```bash
+cargo install --git https://github.com/vMohammad24/asar.rs.git
+```
+
 ### From source
 ```bash
 Ensure you have Rust and Cargo installed. To build and install the CLI from the source:
